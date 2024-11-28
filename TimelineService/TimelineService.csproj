@@ -4,7 +4,7 @@
         <TargetFramework>net8.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-        <UserSecretsId>dotnet-TweetService-2a2ec8a6-edeb-4c30-932e-db0167206638</UserSecretsId>
+        <UserSecretsId>dotnet-TimelineService-2732f7bd-6797-4a48-af60-64699aa4f05a</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>

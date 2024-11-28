@@ -1,7 +1,5 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetService", "TweetService\TweetService.csproj", "{593B7323-C782-4DED-B3C3-B106163BAC51}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterCloneHome", "TwitterCloneHome\TwitterCloneHome.csproj", "{D3866BDB-7BDD-487C-96F1-231FA94F7F29}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3F439DFB-4E3E-4213-AB9C-8B535E3A5593}"
@@ -9,13 +7,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserSearchService", "UserSearchService\UserSearchService.csproj", "{0E581585-0A24-4AD4-823E-860C32218AA5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserFollowService", "UserFollowService\UserFollowService.csproj", "{48141506-DEC6-4CB4-8F13-BC46CFADA3A6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService", "UserService\UserService.csproj", "{AB216A07-87DD-4025-BB2C-277AA8CB0616}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimelineService", "TimelineService\TimelineService.csproj", "{2DB89E2D-830A-4C9B-AD9D-721F68396641}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagrams", "Diagrams", "{B5ED389C-4B9E-42CB-9222-06D8114940F2}"
+	ProjectSection(SolutionItems) = preProject
+		Diagrams\FINALdiagram.drawio.html = Diagrams\FINALdiagram.drawio.html
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimelineService", "TimelineService\TimelineService.csproj", "{0F218293-AB5E-4674-8446-2F93A4B3C13B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserFollowService", "UserFollowService\UserFollowService.csproj", "{10F98D7C-6E4E-4BD2-A06F-073E10577851}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserSearchService", "UserSearchService\UserSearchService.csproj", "{1C3C3D5C-AA93-44C4-8388-9BCE6B85A7EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetService", "TweetService\TweetService.csproj", "{3B3A0F6A-8ABB-4D6E-9C7C-0AD5BAE3E2DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,30 +28,30 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{593B7323-C782-4DED-B3C3-B106163BAC51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{593B7323-C782-4DED-B3C3-B106163BAC51}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{593B7323-C782-4DED-B3C3-B106163BAC51}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{593B7323-C782-4DED-B3C3-B106163BAC51}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D3866BDB-7BDD-487C-96F1-231FA94F7F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D3866BDB-7BDD-487C-96F1-231FA94F7F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3866BDB-7BDD-487C-96F1-231FA94F7F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3866BDB-7BDD-487C-96F1-231FA94F7F29}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0E581585-0A24-4AD4-823E-860C32218AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E581585-0A24-4AD4-823E-860C32218AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E581585-0A24-4AD4-823E-860C32218AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E581585-0A24-4AD4-823E-860C32218AA5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{48141506-DEC6-4CB4-8F13-BC46CFADA3A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{48141506-DEC6-4CB4-8F13-BC46CFADA3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{48141506-DEC6-4CB4-8F13-BC46CFADA3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{48141506-DEC6-4CB4-8F13-BC46CFADA3A6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AB216A07-87DD-4025-BB2C-277AA8CB0616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AB216A07-87DD-4025-BB2C-277AA8CB0616}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB216A07-87DD-4025-BB2C-277AA8CB0616}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB216A07-87DD-4025-BB2C-277AA8CB0616}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2DB89E2D-830A-4C9B-AD9D-721F68396641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2DB89E2D-830A-4C9B-AD9D-721F68396641}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2DB89E2D-830A-4C9B-AD9D-721F68396641}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2DB89E2D-830A-4C9B-AD9D-721F68396641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F218293-AB5E-4674-8446-2F93A4B3C13B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F218293-AB5E-4674-8446-2F93A4B3C13B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F218293-AB5E-4674-8446-2F93A4B3C13B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F218293-AB5E-4674-8446-2F93A4B3C13B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F98D7C-6E4E-4BD2-A06F-073E10577851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F98D7C-6E4E-4BD2-A06F-073E10577851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F98D7C-6E4E-4BD2-A06F-073E10577851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F98D7C-6E4E-4BD2-A06F-073E10577851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C3C3D5C-AA93-44C4-8388-9BCE6B85A7EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C3C3D5C-AA93-44C4-8388-9BCE6B85A7EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C3C3D5C-AA93-44C4-8388-9BCE6B85A7EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C3C3D5C-AA93-44C4-8388-9BCE6B85A7EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B3A0F6A-8ABB-4D6E-9C7C-0AD5BAE3E2DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B3A0F6A-8ABB-4D6E-9C7C-0AD5BAE3E2DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B3A0F6A-8ABB-4D6E-9C7C-0AD5BAE3E2DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B3A0F6A-8ABB-4D6E-9C7C-0AD5BAE3E2DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection

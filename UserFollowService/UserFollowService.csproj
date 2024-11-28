@@ -4,7 +4,7 @@
         <TargetFramework>net8.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-        <UserSecretsId>dotnet-TweetService-2a2ec8a6-edeb-4c30-932e-db0167206638</UserSecretsId>
+        <UserSecretsId>dotnet-UserFollowService-8b1f59f5-924d-4aea-96b1-4da42dfed552</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>
