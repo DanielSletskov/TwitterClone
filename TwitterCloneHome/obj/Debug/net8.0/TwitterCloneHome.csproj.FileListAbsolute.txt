@@ -1,0 +1,15 @@
+C:\Users\Danie\RiderProjects\TwitterClone\TwitterCloneHome\bin\Debug\net8.0\TwitterCloneHome.exe
+C:\Users\Danie\RiderProjects\TwitterClone\TwitterCloneHome\bin\Debug\net8.0\TwitterCloneHome.deps.json
+C:\Users\Danie\RiderProjects\TwitterClone\TwitterCloneHome\bin\Debug\net8.0\TwitterCloneHome.runtimeconfig.json
+C:\Users\Danie\RiderProjects\TwitterClone\TwitterCloneHome\bin\Debug\net8.0\TwitterCloneHome.dll
+C:\Users\Danie\RiderProjects\TwitterClone\TwitterCloneHome\bin\Debug\net8.0\TwitterCloneHome.pdb
+C:\Users\Danie\RiderProjects\TwitterClone\TwitterCloneHome\obj\Debug\net8.0\TwitterCloneHome.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danie\RiderProjects\TwitterClone\TwitterCloneHome\obj\Debug\net8.0\TwitterCloneHome.AssemblyInfoInputs.cache
+C:\Users\Danie\RiderProjects\TwitterClone\TwitterCloneHome\obj\Debug\net8.0\TwitterCloneHome.AssemblyInfo.cs
+C:\Users\Danie\RiderProjects\TwitterClone\TwitterCloneHome\obj\Debug\net8.0\TwitterCloneHome.csproj.CoreCompileInputs.cache
+C:\Users\Danie\RiderProjects\TwitterClone\TwitterCloneHome\obj\Debug\net8.0\TwitterCloneHome.sourcelink.json
+C:\Users\Danie\RiderProjects\TwitterClone\TwitterCloneHome\obj\Debug\net8.0\TwitterCloneHome.dll
+C:\Users\Danie\RiderProjects\TwitterClone\TwitterCloneHome\obj\Debug\net8.0\refint\TwitterCloneHome.dll
+C:\Users\Danie\RiderProjects\TwitterClone\TwitterCloneHome\obj\Debug\net8.0\TwitterCloneHome.pdb
+C:\Users\Danie\RiderProjects\TwitterClone\TwitterCloneHome\obj\Debug\net8.0\TwitterCloneHome.genruntimeconfig.cache
+C:\Users\Danie\RiderProjects\TwitterClone\TwitterCloneHome\obj\Debug\net8.0\ref\TwitterCloneHome.dll
